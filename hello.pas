@@ -1,6 +1,6 @@
 ﻿begin
   Println('Введите язык, на котором вы говорите(ввод на английском)');
-  Println('For foreigners -> Enter the language you speak');
+  Println('For foreigners -> Enter the language you speak(input in English)');
   var hello := ReadString();
   case hello of
     'Russian':Print('Привет');
